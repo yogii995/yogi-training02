@@ -5,12 +5,11 @@ int main(){
       char op;
   double a, b, hasil;
 
+cout << "masukan 2 angka ";
+cin >> a >> b;
 
 cout << "Pilih jenis operasi (+ - / *) : ";
 cin >> op;
-
-cout << "masukan 2 angka ";
-cin >> a >> b;
 
  if(op == '+')
   hasil =  a + b;
